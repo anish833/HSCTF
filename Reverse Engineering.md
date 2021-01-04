@@ -40,14 +40,14 @@ import java.util.Scanner;
 public class idk {
 
 	public static void main(String[] args) {
-	 	Scanner in = new Scanner(System.in);
-    	System.out.println("Enter the text \n");
-      String input = in.next();
-    	char[] temp = new char[10];
-    	for(int i = 0; i < input.length(); i++) {
-      		temp[i] = (char)(input.charAt(i) - 3);
-    	}
-    	System.out.println(temp); 
+		Scanner in = new Scanner(System.in);
+    		System.out.println("Enter the text \n");
+      		String input = in.next();
+    		char[] temp = new char[10];
+    		for(int i = 0; i < input.length(); i++) {
+      			temp[i] = (char)(input.charAt(i) - 3);
+    			}
+    		System.out.println(temp); 
 	}
 
 }
