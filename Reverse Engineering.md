@@ -1,6 +1,6 @@
 Challenge:
 ```
-mport java.util.Scanner;
+import java.util.Scanner;
 
 
 public class SuperSecure {
